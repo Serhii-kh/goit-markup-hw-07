@@ -190,14 +190,14 @@ img,
   margin: -1px;
 }
 
-.peculiarities-discription,
+.peculiarities__discription,
 .team-list-discription,
 .portfolio-discription,
 .contacts-list__link {
   color: var(--fone-color);
 }
 
-.peculiarities-item {
+.peculiarities__item {
   min-width: 270px;
 }
 
@@ -205,19 +205,19 @@ img,
   display: flex;
 }
 
-.peculiarities__list .peculiarities-item:not(:last-child),
+.peculiarities__item:not(:last-child),
 .clients-list .clients-list-item:not(:last-child) {
   margin-right: 30px;
 }
 
-.peculiarities-title {
+.peculiarities__title {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 
-.peculiarities-discription {
+.peculiarities__discription {
   font-size: 14px;
   line-height: 1.7;
 }

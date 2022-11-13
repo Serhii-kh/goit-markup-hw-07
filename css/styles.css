@@ -35,6 +35,11 @@ img,
   list-style: none;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .page-header {
   border-bottom: 1px solid #ececec;
 }
@@ -117,7 +122,32 @@ img,
   padding-bottom: 25px;
 }
 
-.hero-title {
+
+
+.hero-section {
+  max-width: 1600px;
+  height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+  text-align: center;
+
+  background: #2f303a;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: linear-gradient(
+      to left,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/bg-Img.jpg);
+}
+
+
+.hero-section__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -127,7 +157,7 @@ img,
   color: var(--main-bg-color);
 }
 
-.hero-button,
+.hero-section__button,
 .submit-button,
 .footer-submit-button {
   font-size: 16px;
@@ -144,11 +174,13 @@ img,
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.hero-button {
+.hero-section__button {
   min-width: 216px;
   margin-top: 30px;
   padding: 10px 32px;
 }
+
+
 
 .submit-button-thumb {
   display: flex;
@@ -172,28 +204,6 @@ img,
   align-items: center;
   padding: 10px 28px;
   height: 50px;
-}
-
-.hero-section.section {
-  max-width: 1600px;
-  height: 600px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-top: 200px;
-  padding-bottom: 200px;
-
-  text-align: center;
-
-  background: #2f303a;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  background-image: linear-gradient(
-      to left,
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url(../images/bg-Img.jpg);
 }
 
 .visually-hidden {
@@ -251,10 +261,7 @@ img,
   background-color: var(--bg-second-color);
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+
 
 .our-work.section {
   padding-top: 0;

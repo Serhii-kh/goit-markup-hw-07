@@ -257,7 +257,7 @@ img,
 }
 
 .work__title,
-.team__title,
+.team__main-title,
 .clients__title {
   margin-bottom: 50px;
 }
@@ -275,7 +275,7 @@ img,
   position: relative;
 }
 
-.team__title,
+.team__main-title,
 .work__title,
 .clients__title {
   font-size: 36px;

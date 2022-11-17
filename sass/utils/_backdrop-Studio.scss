@@ -9,11 +9,10 @@
 
   opacity: 1;
   transition: opacity 250ms var(--main-cubic-bezier);
-}
 
-.backdrop.is-hidden {
-  opacity: 0;
-  pointer-events: none;
-  visibility: hidden;
+  &.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
 }
-

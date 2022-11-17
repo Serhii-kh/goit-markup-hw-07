@@ -49,6 +49,14 @@ img,
   margin: -1px;
 }
 
+.logo,
+.main-nav__link,
+.contacts-list__link,
+.footer__link,
+.portfolio__link {
+  text-decoration: none;
+}
+
 :root {
   --focus-color: #2196f3;
   --main-color: #212121;
@@ -78,6 +86,18 @@ img,
   fill: currentColor;
 }
 
+.current__link::after {
+  position: absolute;
+  left: 0;
+  bottom: -13px;
+  display: inline-block;
+  content: "";
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--focus-color);
+}
+
 .logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -105,6 +125,35 @@ img,
   padding-bottom: 0;
   padding-top: 0;
   margin-bottom: 20px;
+}
+
+.main-nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 95px;
+}
+
+.main-nav__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.main-nav__link {
+  display: block;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+  -webkit-transition: color 250ms var(--main-cubic-bezier);
+  transition: color 250ms var(--main-cubic-bezier);
+}
+
+.main-nav__link:hover,
+.main-nav__link:focus {
+  color: var(--focus-color);
 }
 
 .hero-section {
@@ -531,6 +580,13 @@ input {
   color: var(--main-bg-color);
 }
 
+.thumb-portfolio {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
 textarea {
   width: 448px;
   height: 120px;
@@ -592,4 +648,50 @@ textarea::placeholder {
   line-height: 1.2;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+}
+
+.form-field {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: #757575;
+}
+
+.form-field:nth-child(-n+4) {
+  margin-bottom: 10px;
+}
+
+.form-field:nth-child(-n+2) {
+  margin-top: 12px;
+}
+
+.check-field {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.check-label {
+  padding-left: 12px;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }/*# sourceMappingURL=main.css.map */

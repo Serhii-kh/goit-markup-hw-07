@@ -47,3 +47,12 @@ img,
   clip-path: inset(50%);
   margin: -1px;
 }
+
+.logo,
+.main-nav__link,
+.contacts-list__link,
+.footer__link,
+.portfolio__link {
+  text-decoration: none;
+}
+

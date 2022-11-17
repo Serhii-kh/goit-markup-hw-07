@@ -83,10 +83,10 @@ img,
   color: var(--focus-color);
 } */
 
-.current__link {
+/* .current__link {
   position: relative;
   color: var(--focus-color);
-}
+} */
 
 .contacts-list {
   display: flex;
@@ -200,27 +200,29 @@ img,
   margin: -1px;
 } */
 
-.peculiarities__description,
+/* .peculiarities__description,
 .team__description,
 .portfolio__description,
 .contacts-list__link {
   color: var(--fone-color);
-}
+} */
 
-.peculiarities__item {
+/* .peculiarities__item {
   min-width: 270px;
 }
 
 .peculiarities__list {
   display: flex;
-}
+} */
 
+
+/* pec added to scss */
 .peculiarities__item:not(:last-child),
 .clients__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.peculiarities__title {
+/* .peculiarities__title {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -230,9 +232,9 @@ img,
 .peculiarities__description {
   font-size: 14px;
   line-height: 1.7;
-}
+} */
 
-.thumb {
+/* .thumb {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -240,7 +242,7 @@ img,
   border-radius: 4px;
   margin-bottom: 30px;
   background-color: var(--bg-second-color);
-}
+} */
 
 .work {
   padding-top: 0;

@@ -57,6 +57,18 @@ img,
   text-decoration: none;
 }
 
+.peculiarities__description,
+.team__description,
+.portfolio__description,
+.contacts-list__link {
+  color: var(--fone-color);
+}
+
+.current__link {
+  position: relative;
+  color: var(--focus-color);
+}
+
 :root {
   --focus-color: #2196f3;
   --main-color: #212121;
@@ -694,4 +706,46 @@ textarea::placeholder {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+}
+
+.thumb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 120px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  background-color: var(--bg-second-color);
+}
+
+.peculiarities__item {
+  min-width: 270px;
+}
+
+.peculiarities__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.peculiarities__title {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.peculiarities__description {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.peculiarities__item:not(:last-child) {
+  margin-right: 30px;
 }/*# sourceMappingURL=main.css.map */

@@ -56,3 +56,15 @@ img,
   text-decoration: none;
 }
 
+.peculiarities__description,
+.team__description,
+.portfolio__description,
+.contacts-list__link {
+  color: var(--fone-color);
+}
+
+.current__link {
+  position: relative;
+  color: var(--focus-color);
+}
+

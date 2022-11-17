@@ -56,3 +56,34 @@
   display: flex;
   gap: 10px;
 }
+
+.footer__social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: var(--for-icons-color);
+
+  transition-property: color, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0ms;
+}
+
+.footer__social-link:hover,
+.footer__social-link:focus {
+  color: var(--main-bg-color);
+  background-color: var(--focus-color);
+}
+
+.footer__social-icon {
+  fill: currentColor;
+}
+
+.footer__label {
+  display: inline-flex;
+  padding-top: 15px;
+  gap: 93px;
+}

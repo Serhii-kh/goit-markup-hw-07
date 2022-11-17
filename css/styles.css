@@ -40,14 +40,14 @@ img,
   padding-bottom: 94px;
 } */
 
-.page-header {
+/* .page-header {
   border-bottom: 1px solid #ececec;
 }
 
 .page-header__container {
   display: flex;
   align-items: center;
-}
+} */
 
 /* .container {
   width: 1200px;
@@ -372,10 +372,10 @@ img,
   color: #000000;
 } */
 
-.page-header__icon {
+/* .page-header__icon {
   margin-right: 10px;
   fill: currentColor;
-}
+} */
 
 .team__social {
   display: flex;
@@ -384,7 +384,7 @@ img,
   gap: 10px;
   padding-bottom: 30px;
 }
-
+/* footer styles added to scss */
 .footer__social-link,
 .team__link {
   display: flex;
@@ -401,6 +401,8 @@ img,
   transition-delay: 0ms;
 }
 
+/* footer styles added to scss */
+
 .footer__social-link:hover,
 .footer__social-link:focus,
 .team__link:hover,
@@ -408,7 +410,7 @@ img,
   color: var(--main-bg-color);
   background-color: var(--focus-color);
 }
-
+/* footer styles added */
 .team__icon,
 .footer__social-icon {
   fill: currentColor;
@@ -547,11 +549,11 @@ img,
   border-radius: 50%;
 } */
 
-.footer__label {
+/* .footer__label {
   display: inline-flex;
   padding-top: 15px;
   gap: 93px;
-}
+} */
 
 /* .backdrop {
   position: fixed;
@@ -663,6 +665,9 @@ img,
   background-color: #188ce8;
 } */
 
+
+
+/* footer addwd to scss */
 .work__description,
 .footer__input-label {
   font-weight: 700;
@@ -764,7 +769,7 @@ img,
   font-size: 20px;
 } */
 
-textarea {
+/* textarea {
   width: 448px;
   height: 120px;
   margin-top: 4px;
@@ -775,7 +780,7 @@ textarea {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   font-size: 12px;
-}
+} */
 
 /* input {
   height: 40px;
@@ -821,7 +826,7 @@ textarea {
   transition: border 250ms var(--main-cubic-bezier);
 } */
 
-.input,
+/* .input,
 textarea {
   transition: border 250 ms var(--main-cubic-bezier);
 }
@@ -832,7 +837,7 @@ textarea:focus {
   outline: var(--focus-color);
 
   cursor: pointer;
-}
+} */
 
 .footer__icon-send {
   margin-left: 10px;
@@ -856,14 +861,14 @@ textarea:focus {
   fill: var(--focus-color);
 } */
 
-textarea::placeholder {
+/* textarea::placeholder {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.2;
   letter-spacing: 0.01em;
 
   color: rgba(117, 117, 117, 0.5);
-}
+} */
 
 /* .footer__input-div::placeholder {
   font-weight: 400;

@@ -810,15 +810,13 @@ textarea::placeholder {
   -webkit-transition: color 250ms var(--main-cubic-bezier), border-color 250ms var(--main-cubic-bezier);
   transition: color 250ms var(--main-cubic-bezier), border-color 250ms var(--main-cubic-bezier);
 }
+.clients__link:hover, .clients__link:focus {
+  color: var(--focus-color);
+  border-color: currentColor;
+}
 
 .clients__icon {
   fill: currentColor;
-}
-
-.clients__link:hover,
-.clients__link:focus {
-  color: var(--focus-color);
-  border-color: currentColor;
 }
 
 .clients__item:not(:last-child) {

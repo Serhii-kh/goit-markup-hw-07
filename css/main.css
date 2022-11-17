@@ -597,7 +597,6 @@ input {
   transition: transform 250ms var(--main-cubic-bezier);
   transition: transform 250ms var(--main-cubic-bezier), -webkit-transform 250ms var(--main-cubic-bezier);
 }
-
 .portfolio__link:hover .portfolio__backdrop {
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);

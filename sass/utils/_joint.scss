@@ -1,0 +1,60 @@
+.work__title,
+.team__main-title,
+.clients__title {
+  margin-bottom: 50px;
+}
+
+.team__main-title,
+.work__title,
+.clients__title {
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.team__list,
+.clients__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__social-link,
+.team__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: var(--for-icons-color);
+
+  transition-property: color, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0ms;
+}
+
+.footer__social-link:hover,
+.footer__social-link:focus,
+.team__link:hover,
+.team__link:focus {
+  color: var(--main-bg-color);
+  background-color: var(--focus-color);
+}
+
+.team__icon,
+.footer__social-icon {
+  fill: currentColor;
+}
+
+.work__description,
+.footer__input-label {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: var(--main-bg-color);
+}

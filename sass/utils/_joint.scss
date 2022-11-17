@@ -63,3 +63,21 @@
 .nav-item {
   position: relative;
 }
+
+
+.hero-section__button,
+.submit__button,
+.footer__submit-button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+
+  color: var(--main-bg-color);
+  background: var(--focus-color);
+
+  border-radius: 4px;
+  border: var(--focus-color);
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}

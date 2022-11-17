@@ -246,11 +246,11 @@ img,
   background-color: var(--bg-second-color);
 } */
 
-.work {
+/* .work {
   padding-top: 0;
-}
+} */
 
-.portfolio__link {
+/* .portfolio__link {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -258,7 +258,7 @@ img,
 .portfolio__link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+} */
 
 /* .work__title,
 .team__main-title,
@@ -266,18 +266,18 @@ img,
   margin-bottom: 50px;
 } */
 
-.work__list {
+/* .work__list {
   display: flex;
 }
 
 .work__item:not(:last-child) {
   margin-right: 30px;
-}
+} */
 
-.work__item,
+/* .work__item,
 .nav-item {
   position: relative;
-}
+} */
 
 /* .team__main-title,
 .work__title,
@@ -287,7 +287,7 @@ img,
   text-align: center;
 } */
 
-.team__description,
+/* .team__description,
 .team__title {
   font-size: 16px;
   text-align: center;
@@ -301,7 +301,7 @@ img,
   font-weight: 500;
   margin-top: 30px;
   margin-bottom: 10px;
-}
+} */
 
 /* .team__list,
 .clients__list {
@@ -343,7 +343,7 @@ img,
   border-color: currentColor;
 } */
 
-.team__item:not(:last-child) {
+/* .team__item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -357,7 +357,7 @@ img,
 .team {
   line-height: 1.2;
   background-color: var(--bg-second-color);
-}
+} */
 
 /* .logo {
   font-family: 'Raleway', sans-serif;
@@ -381,13 +381,15 @@ img,
   fill: currentColor;
 } */
 
-.team__social {
+/* .team__social {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
   padding-bottom: 30px;
-}
+} */
+
+
 /* footer styles added to scss */
 /* .footer__social-link,
 .team__link {
@@ -452,7 +454,7 @@ img,
     0px 2px 2px rgba(0, 0, 0, 0.12);
 } */
 
-.portfolio__title {
+/* .portfolio__title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -478,11 +480,11 @@ img,
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-}
+} */
 
-.filter__item:not(:last-child) {
+/* .filter__item:not(:last-child) {
   margin-right: 8px;
-}
+} */
 
 /* .footer {
   background: #2f303a;
@@ -695,7 +697,7 @@ img,
   margin-right: 10px;
 } */
 
-.work__thumb {
+/* .work__thumb {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -706,7 +708,7 @@ img,
   width: 100%;
 
   background-color: rgba(47, 48, 58, 0.8);
-}
+} */
 
 /* .current__link::after {
   position: absolute;

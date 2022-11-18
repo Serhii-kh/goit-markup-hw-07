@@ -1,13 +1,11 @@
 .clients__item {
-  @include centeredFlex(flex);
+ @include centeredFlex();
 
   width: 170px;
   height: 92px;
 }
 
 .clients__link {
-  @include centeredFlex(flex);
-
   color: currentColor;
   width: 100%;
   height: 100%;

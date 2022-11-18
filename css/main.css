@@ -778,7 +778,7 @@ textarea::placeholder {
 }
 
 .clients__item {
-  width: 170px;
+  @in width: 170px;
   height: 92px;
 }
 

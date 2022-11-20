@@ -1,16 +1,17 @@
-body {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  color: var(--main-color);
-  letter-spacing: 0.03em;
-}
-
 h1,
 h2,
 h3,
 p {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  font-style: var(--font-style);
+  letter-spacing: var(--letter-spacing);
+
+  color: var(--main-color);
 }
 
 img,
@@ -67,4 +68,3 @@ img,
   position: relative;
   color: var(--focus-color);
 }
-

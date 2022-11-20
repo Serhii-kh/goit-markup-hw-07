@@ -11,9 +11,8 @@
 }
 
 .work__thumb {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include centeredFlex();
+
   position: absolute;
   width: 100%;
   height: 70px;

@@ -5,16 +5,14 @@
 }
 
 .footer__submit-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include centeredFlex();
   padding: 10px 28px;
   height: 50px;
 }
 
 .filter {
-  display: flex;
-  justify-content: center;
+  @include centeredFlex();
+
   margin-bottom: 34px;
 }
 
@@ -31,9 +29,7 @@
   cursor: pointer;
 
   transition-property: color, background-color, box-shadow;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0ms;
+  @include basicTransition();
 
   &:hover,
   &:focus {
@@ -55,9 +51,7 @@
   width: 30px;
   height: 30px;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include centeredFlex();
 
   z-index: 1;
 
@@ -65,7 +59,7 @@
   border-radius: 50%;
   background-color: var(--main-bg-color);
   cursor: pointer;
-  transition: fill 250ms var(--main-cubic-bezier);
+  @include generalTransition(fill);
 
   &:hover,
   &:focus {
@@ -74,15 +68,15 @@
 }
 
 .submit-button-thumb {
-  display: flex;
-  justify-content: center;
+  @include centeredFlex();
   width: 100%;
 }
 
 .submit__button {
   min-width: 200px;
   padding: 10px 52px;
-  transition: background-color 250ms var(--main-cubic-bezier);
+
+  @include generalTransition(background-color);
 
   &:hover,
   &:focus {

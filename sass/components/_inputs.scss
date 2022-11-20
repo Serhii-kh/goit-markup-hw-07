@@ -40,7 +40,7 @@
   background-color: #2f303a;
   border: 1px solid rgba(255, 255, 255, 0.3);
 
-  transition: border 250ms var(--main-cubic-bezier);
+  @include generalTransition(border);
 }
 
 .input:focus + .footer__icon-person {
@@ -55,7 +55,6 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
-
 input {
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -64,7 +63,7 @@ input {
 }
 
 .input {
-  transition: border 250 ms var(--main-cubic-bezier);
+  @include generalTransition(border);
 }
 
 .input:focus {
@@ -79,7 +78,6 @@ input {
   padding-top: 12px;
   padding-bottom: 12px;
 }
-
 
 .checkbox {
   position: absolute;

@@ -11,7 +11,7 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 
-  transition: transform 250ms var(--main-cubic-bezier);
+  @include generalTransition(transform);
   transform: translate(-50%, -50%) scale(1);
 }
 

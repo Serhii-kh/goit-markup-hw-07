@@ -14,25 +14,20 @@
 
 .team__list,
 .clients__list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include centeredFlex();
 }
 
 .footer__social-link,
 .team__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include centeredFlex();
+
   width: 44px;
   height: 44px;
   border-radius: 50%;
   color: var(--for-icons-color);
 
   transition-property: color, background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0ms;
+  @include basicTransition();
 }
 
 .footer__social-link:hover,
@@ -63,7 +58,6 @@
 .nav-item {
   position: relative;
 }
-
 
 .hero-section__button,
 .submit__button,

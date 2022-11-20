@@ -1,5 +1,24 @@
 @mixin centeredFlex($type: flex) {
   display: $type;
   justify-content: center;
-align-items: center;
+  align-items: center;
+}
+
+@mixin basicTransition() {
+  transition-duration: 250ms;
+  transition-timing-function: var(--main-cubic-bezier);
+}
+
+@mixin generalTransition($property: color) {
+  transition-property: $property;
+  transition-duration: 250ms;
+  transition-timing-function: var(--main-cubic-bezier);
+}
+
+
+@mixin MainTransition($property) {
+	transition-property: $property;
+	transition-duration: 250ms;
+	transition-timing-function: var(--main-cubic-bezier);
+	
 }

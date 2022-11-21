@@ -1,16 +1,15 @@
 .footer__input-label {
-  text-align: left;
   margin-bottom: 20px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+
   text-align: center;
   text-transform: uppercase;
 
   color: var(--main-bg-color);
 }
-
-
 
 .footer__input-field {
   display: flex;
@@ -42,8 +41,6 @@
   @include generalTransition(border);
 }
 
-
-
 .footer__input-div::placeholder {
   font-weight: 400;
   font-size: 16px;
@@ -53,10 +50,11 @@
 }
 
 input {
+  margin-top: 4px;
+
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  margin-top: 4px;
 }
 
 .input {
@@ -78,10 +76,12 @@ input {
 
 .checkbox {
   position: absolute;
-  width: 1px;
-  height: 1px;
+
   margin: -1px;
   padding: 0;
+  width: 1px;
+  height: 1px;
+
   border: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;

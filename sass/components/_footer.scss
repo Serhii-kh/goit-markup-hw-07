@@ -1,7 +1,8 @@
 .footer {
-  background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+
+  background: #2f303a;
 }
 
 .footer__link {
@@ -9,6 +10,7 @@
   font-size: 14px;
   line-height: 1.7;
   font-style: var(--font-style);
+
   color: rgba(255, 255, 255, 0.6);
 
   @include generalTransition;
@@ -33,10 +35,11 @@
 }
 
 .footer__social {
-  width: 206px;
-  height: 80px;
   display: flex;
   flex-wrap: wrap;
+
+  width: 206px;
+  height: 80px;
 }
 
 .footer__container {
@@ -62,6 +65,7 @@
   @include centeredFlex();
   width: 44px;
   height: 44px;
+  
   border-radius: 50%;
   color: var(--for-icons-color);
 
@@ -79,5 +83,3 @@
   margin-left: 10px;
   fill: var(--main-bg-color);
 }
-
-

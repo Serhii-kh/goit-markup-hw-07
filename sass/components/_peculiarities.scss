@@ -1,9 +1,10 @@
 .thumb {
   @include centeredFlex();
-
-  height: 120px;
-  border-radius: 4px;
   margin-bottom: 30px;
+  height: 120px;
+
+  border-radius: 4px;
+
   background-color: var(--bg-second-color);
 }
 
@@ -16,10 +17,11 @@
 }
 
 .peculiarities__title {
+  margin-bottom: 10px;
+
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  margin-bottom: 10px;
 }
 
 .peculiarities__description {

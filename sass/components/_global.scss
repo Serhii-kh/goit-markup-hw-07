@@ -38,6 +38,7 @@ img,
 
 .visually-hidden {
   position: absolute;
+
   white-space: nowrap;
   width: 1px;
   height: 1px;
@@ -66,5 +67,6 @@ img,
 
 .current__link {
   position: relative;
+  
   color: var(--focus-color);
 }

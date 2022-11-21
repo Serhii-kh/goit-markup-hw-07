@@ -8,7 +8,6 @@
 .clients__link {
   @include centeredFlex();
 
-  color: currentColor;
   width: 100%;
   height: 100%;
   border: solid 1px var(--for-icons-color);
@@ -17,7 +16,6 @@
 
   transition-property: color, border-color;
   @include basicTransition;
-
 
   &:hover,
   &:focus {

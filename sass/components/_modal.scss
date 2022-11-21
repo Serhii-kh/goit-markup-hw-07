@@ -38,10 +38,11 @@
 }
 
 .modal-form__check-span {
+  @include centeredFlex;
+
   position: absolute;
   left: 18px;
   bottom: 5px;
-  @include centeredFlex;
 
   width: 16px;
   height: 15px;
@@ -65,8 +66,8 @@
   position: absolute;
   left: 15px;
   top: 30px;
-  transition-property: fill;
-  @include basicTransition();
+
+  @include generalTransition(fill);
 }
 
 .input:focus + .modal-form__icon {

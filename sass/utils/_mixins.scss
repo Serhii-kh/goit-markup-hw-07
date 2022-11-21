@@ -15,10 +15,3 @@
   transition-timing-function: var(--main-cubic-bezier);
 }
 
-
-@mixin MainTransition($property) {
-	transition-property: $property;
-	transition-duration: 250ms;
-	transition-timing-function: var(--main-cubic-bezier);
-	
-}

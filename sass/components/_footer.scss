@@ -59,9 +59,7 @@
 }
 
 .footer__social-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include centeredFlex();
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -86,5 +84,6 @@
   position: absolute;
   left: 15px;
   top: 30px;
-  transition: fill 250ms var(--main-cubic-bezier);
+  transition-property: fill;
+  @include centeredFlex();
 }

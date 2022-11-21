@@ -433,8 +433,17 @@ img,
   position: absolute;
   left: 15px;
   top: 30px;
-  -webkit-transition: fill 250ms var(--main-cubic-bezier);
-  transition: fill 250ms var(--main-cubic-bezier);
+  -webkit-transition-property: fill;
+  transition-property: fill;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .footer__input-label {
@@ -581,8 +590,12 @@ input {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
-  -webkit-transition: opacity 250ms var(--main-cubic-bezier);
-  transition: opacity 250ms var(--main-cubic-bezier);
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: var(--main-cubic-bezier);
+          transition-timing-function: var(--main-cubic-bezier);
 }
 .backdrop.is-hidden {
   opacity: 0;

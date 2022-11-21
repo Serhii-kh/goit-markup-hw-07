@@ -8,7 +8,8 @@
   background-color: rgba(0, 0, 0, 0.2);
 
   opacity: 1;
-  transition: opacity 250ms var(--main-cubic-bezier);
+  transition-property: opacity;
+  @include basicTransition();
 
   &.is-hidden {
     opacity: 0;

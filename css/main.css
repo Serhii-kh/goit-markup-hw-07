@@ -64,7 +64,7 @@ img,
   color: var(--fone-color);
 }
 
-.current__link {
+.main-nav__link.current__link {
   position: relative;
   color: var(--focus-color);
 }

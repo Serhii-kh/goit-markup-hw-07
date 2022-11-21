@@ -3,8 +3,7 @@
 }
 
 .page-header__container {
-  display: flex;
-  align-items: center;
+  @include centeredFlex;
 }
 
 .page-header__icon {
@@ -23,4 +22,3 @@
   border-radius: 2px;
   background-color: var(--focus-color);
 }
-

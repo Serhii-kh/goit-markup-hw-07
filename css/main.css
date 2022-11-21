@@ -429,35 +429,15 @@ img,
   fill: var(--main-bg-color);
 }
 
-.footer__icon-person {
-  position: absolute;
-  left: 15px;
-  top: 30px;
-  -webkit-transition-property: fill;
-  transition-property: fill;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .footer__input-label {
+  text-align: left;
+  margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-align: center;
   text-transform: uppercase;
   color: var(--main-bg-color);
-}
-
-.footer__input-label {
-  text-align: left;
-  margin-bottom: 20px;
 }
 
 .footer__input-field {
@@ -502,10 +482,6 @@ img,
           transition-duration: 250ms;
   -webkit-transition-timing-function: var(--main-cubic-bezier);
           transition-timing-function: var(--main-cubic-bezier);
-}
-
-.input:focus + .footer__icon-person {
-  fill: var(--focus-color);
 }
 
 .footer__input-div::-webkit-input-placeholder {
@@ -644,9 +620,6 @@ textarea {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   font-size: 12px;
-}
-
-textarea {
   -webkit-transition-property: border;
   transition-property: border;
   -webkit-transition-duration: 250ms;
@@ -654,7 +627,6 @@ textarea {
   -webkit-transition-timing-function: var(--main-cubic-bezier);
           transition-timing-function: var(--main-cubic-bezier);
 }
-
 textarea:focus {
   border-color: var(--focus-color);
   outline: var(--focus-color);
@@ -1161,4 +1133,20 @@ textarea::placeholder {
 .checkbox:checked + .modal-form__check-span {
   background-color: var(--focus-color);
   border-color: var(--focus-color);
+}
+
+.modal-form__icon {
+  position: absolute;
+  left: 15px;
+  top: 30px;
+  -webkit-transition-property: fill;
+  transition-property: fill;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: var(--main-cubic-bezier);
+          transition-timing-function: var(--main-cubic-bezier);
+}
+
+.input:focus + .modal-form__icon {
+  fill: var(--focus-color);
 }/*# sourceMappingURL=main.css.map */

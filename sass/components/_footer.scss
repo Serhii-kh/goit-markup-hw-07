@@ -80,10 +80,4 @@
   fill: var(--main-bg-color);
 }
 
-.footer__icon-person {
-  position: absolute;
-  left: 15px;
-  top: 30px;
-  transition-property: fill;
-  @include centeredFlex();
-}
+

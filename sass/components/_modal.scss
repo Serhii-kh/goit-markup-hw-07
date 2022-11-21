@@ -41,9 +41,7 @@
   position: absolute;
   left: 18px;
   bottom: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include centeredFlex;
 
   width: 16px;
   height: 15px;
@@ -61,4 +59,16 @@
 .checkbox:checked + .modal-form__check-span {
   background-color: var(--focus-color);
   border-color: var(--focus-color);
+}
+
+.modal-form__icon {
+  position: absolute;
+  left: 15px;
+  top: 30px;
+  transition-property: fill;
+  @include basicTransition();
+}
+
+.input:focus + .modal-form__icon {
+  fill: var(--focus-color);
 }

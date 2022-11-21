@@ -1,4 +1,6 @@
 .footer__input-label {
+  text-align: left;
+  margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -8,10 +10,7 @@
   color: var(--main-bg-color);
 }
 
-.footer__input-label {
-  text-align: left;
-  margin-bottom: 20px;
-}
+
 
 .footer__input-field {
   display: flex;
@@ -43,9 +42,7 @@
   @include generalTransition(border);
 }
 
-.input:focus + .footer__icon-person {
-  fill: var(--focus-color);
-}
+
 
 .footer__input-div::placeholder {
   font-weight: 400;

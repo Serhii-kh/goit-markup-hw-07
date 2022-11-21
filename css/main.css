@@ -397,28 +397,6 @@ img,
   gap: 10px;
 }
 
-.footer__social-link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  color: var(--for-icons-color);
-  -webkit-transition-property: color, background-color;
-  transition-property: color, background-color;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: var(--main-cubic-bezier);
-          transition-timing-function: var(--main-cubic-bezier);
-}
-
 .footer__label {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;

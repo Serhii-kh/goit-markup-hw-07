@@ -61,18 +61,6 @@
   gap: 10px;
 }
 
-.footer__social-link {
-  @include centeredFlex();
-  width: 44px;
-  height: 44px;
-  
-  border-radius: 50%;
-  color: var(--for-icons-color);
-
-  transition-property: color, background-color;
-  @include basicTransition;
-}
-
 .footer__label {
   display: inline-flex;
   padding-top: 15px;

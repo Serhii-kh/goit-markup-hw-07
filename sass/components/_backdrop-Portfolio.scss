@@ -6,7 +6,7 @@
   height: 100%;
 
   background-color: rgba(33, 150, 243, 0.9);
-  transition: transform 250ms var(--main-cubic-bezier);
+  transition: transform 250ms $main-cubic-bezier;
 
 	.portfolio__link:hover & {
   transform: translateY(-100%);
@@ -19,7 +19,7 @@
   font-size: 18px;
   padding: 63px 24px;
   line-height: 1.6;
-  color: var(--main-bg-color);
+  color: $main-bg-color;
 }
 
 

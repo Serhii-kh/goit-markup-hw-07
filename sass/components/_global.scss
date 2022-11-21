@@ -7,11 +7,11 @@ p {
 }
 
 body {
-  font-family: var(--font-family);
-  font-style: var(--font-style);
-  letter-spacing: var(--letter-spacing);
+  font-family: $font-family;
+  font-style: $font-style;
+  letter-spacing: $letter-spacing;
 
-  color: var(--main-color);
+  color: $main-color;
 }
 
 img,
@@ -62,11 +62,11 @@ img,
 .team__description,
 .portfolio__description,
 .contacts-list__link {
-  color: var(--fone-color);
+  color: $fone-color;
 }
 
 .main-nav__link.current__link {
   position: relative;
 
-  color: var(--focus-color);
+  color: $focus-color;
 }

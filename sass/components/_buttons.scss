@@ -30,15 +30,15 @@
   border: none;
 
   cursor: pointer;
-  background: var(--bg-second-color);
+  background: $bg-second-color;
 
   transition-property: color, background-color, box-shadow;
   @include basicTransition();
 
   &:hover,
   &:focus {
-    color: var(--main-bg-color);
-    background-color: var(--focus-color);
+    color: $main-bg-color;
+    background-color: $focus-color;
 
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
       0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -62,14 +62,14 @@
 
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  background-color: var(--main-bg-color);
+  background-color: $main-bg-color;
   cursor: pointer;
 
   @include generalTransition(fill);
 
   &:hover,
   &:focus {
-    fill: var(--focus-color);
+    fill: $focus-color;
   }
 }
 

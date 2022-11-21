@@ -11,13 +11,13 @@
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--main-color);
+  color: $main-color;
 
   padding-left: 24px;
   padding-top: 20px;
   padding-bottom: 4px;
-  border-left: 1px solid var(--border-color);
-  border-right: 1px solid var(--border-color);
+  border-left: 1px solid $border-color;
+  border-right: 1px solid $border-color;
 }
 
 .portfolio__description {
@@ -26,9 +26,9 @@
   
   line-height: 1.875;
 
-  border-left: 1px solid var(--border-color);
-  border-right: 1px solid var(--border-color);
-  border-bottom: 1px solid var(--border-color);
+  border-left: 1px solid $border-color;
+  border-right: 1px solid $border-color;
+  border-bottom: 1px solid $border-color;
 }
 
 .portfolio {

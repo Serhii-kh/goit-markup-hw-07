@@ -8,7 +8,7 @@
   text-align: center;
   text-transform: uppercase;
 
-  color: var(--main-bg-color);
+  color: $main-bg-color;
 }
 
 .footer__input-field {
@@ -62,8 +62,8 @@ input {
 }
 
 .input:focus {
-  border-color: var(--focus-color);
-  outline: var(--focus-color);
+  border-color: $focus-color;
+  outline: $focus-color;
 
   cursor: pointer;
 }

@@ -14,8 +14,8 @@ textarea {
   @include generalTransition(border);
 
   &:focus {
-    border-color: var(--focus-color);
-    outline: var(--focus-color);
+    border-color: $focus-color;
+    outline: $focus-color;
 
     cursor: pointer;
   }

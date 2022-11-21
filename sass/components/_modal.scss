@@ -6,7 +6,7 @@
   min-width: 528px;
   min-height: 581px;
 
-  background: var(--main-bg-color);
+  background: $main-bg-color;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -34,7 +34,7 @@
 }
 
 .modal-form__link {
-  color: var(--focus-color);
+  color: $focus-color;
 }
 
 .modal-form__check-span {
@@ -47,19 +47,19 @@
   width: 16px;
   height: 15px;
 
-  color: var(--main-color);
+  color: $main-color;
 
-  border: 2px solid var(--main-color);
+  border: 2px solid $main-color;
   border-radius: 2px;
 }
 
 .modal-form__check-icon {
-  fill: var(--main-bg-color);
+  fill: $main-bg-color;
 }
 
 .checkbox:checked + .modal-form__check-span {
-  background-color: var(--focus-color);
-  border-color: var(--focus-color);
+  background-color: $focus-color;
+  border-color: $focus-color;
 }
 
 .modal-form__icon {
@@ -71,5 +71,5 @@
 }
 
 .input:focus + .modal-form__icon {
-  fill: var(--focus-color);
+  fill: $focus-color;
 }

@@ -18,6 +18,6 @@
 
   &:hover,
   &:focus {
-    color: var(--focus-color);
+    color: $focus-color;
   }
 }

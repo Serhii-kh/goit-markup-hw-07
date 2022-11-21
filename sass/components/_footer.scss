@@ -17,20 +17,20 @@
 
   &:hover,
   &:focus {
-    color: var(--focus-color);
+    color: $focus-color;
   }
 }
 
 .footer__address,
 .footer__logo-studio {
-  color: var(--main-bg-color);
+  color: $main-bg-color;
 }
 
 .footer__title {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  color: var(--main-bg-color);
+  color: $main-bg-color;
   margin-bottom: 20px;
 }
 
@@ -69,5 +69,5 @@
 
 .footer__icon-send {
   margin-left: 10px;
-  fill: var(--main-bg-color);
+  fill: $main-bg-color;
 }
